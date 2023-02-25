@@ -2,9 +2,24 @@
 
 body {
     font-family: 'Fraunces', serif;
+    background-color: hsl(30, 38%, 92%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+.card {
+    border-radius: 100px;
+    display: flex;
+    max-width: 666px;
+    background-color: #fff;
+    margin: 0 1rem;
+}
+.img_container {
+    width: 50%;
 }
